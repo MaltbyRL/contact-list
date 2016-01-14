@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Local storage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style type="style/css" href='style.css' class="src"></style>
+</head>
+<body>
+  <container>
+    <row>
+      <div class="col-xs-4"></div>
+      <div class="col-xs-4 headerName">Contact List</div>
+    </row>
+    <row>
+      <div class="col-xs-2" >
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" id="dropdown">
+              <li value="newContact"><button class="contacts" id="newContact">New Contact</button></li>
+              <li value="delContact"><button class="contacts" id="delContact">Delete Contact</button></li>
+              <li value="searchBar"><button class="contacts" id="searchBar">Search</button></li>
+              <!-- <input type="text" id=""> -->
+            </ul>
+          </div>
+      </div>
+    </row>
+  <row>
+    <div class="col-xs-12" id="searchField"></div>
+  </row>
+
+        <div class="row">
+          <div class="row">
+            <table class="table table-striped">
+              <thead>
+                <tr class ="tableRow">
+                  <th class="col-xs-1"></th>
+                  <th class="col-xs-4">Name</th>
+                  <th class="col-xs-4">Phone Number</th>
+                </tr>
+              </thead>
+              <tbody class="tableBody">
+                <tr class="template">
+                  <td class="col-xs-1"></td>
+                  <td class="name  col-xs-4" id="nameList"></td>
+                  <td class="number col-xs-4" id = "numberList"></td>
+
+                </tr>
+              </tbody>
+            </table>
+        </div>
+
+
+  </container>
+
+
+
+
+
+<!--
+<input type="text" id="newName">
+<button id="addName">addName</button>
+<div class="">
+  <ul id='nameList'>
+  </ul>
+</div>
+ -->
+
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/lodash/3.10.1/lodash.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

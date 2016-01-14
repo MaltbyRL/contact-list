@@ -1,0 +1,16 @@
+button.contacts{
+  background: white;
+}
+
+container {
+  width: 80vw;
+  border:10vw;
+  border: 30px;
+}
+body {
+  padding: 40px;
+}
+
+.headerName {
+  font-size: 18px;
+}
