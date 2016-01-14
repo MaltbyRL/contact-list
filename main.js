@@ -6,7 +6,7 @@ var names = [''];
 var numbers = [''];
 var newName = ""
 var newNumber = ""
-
+  
 
 function init() {
   $('#dropdown li').on('click', dropDown);
