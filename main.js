@@ -6,13 +6,13 @@ var names = [''];
 var numbers = [''];
 var newName = ""
 var newNumber = ""
-  
+
 
 function init() {
   $('#dropdown li').on('click', dropDown);
   $('#newContact').on("click", addBar);
   $('#delContact').on("click", delBar);
-  $('div').on("click", "#addContact", searchBar);
+  // $('div').on("click", "#addContact", searchBar);
   $('div').on("click", "#addContact", addContact);
   $('div').on('click', "#delContact", delContact);
 
